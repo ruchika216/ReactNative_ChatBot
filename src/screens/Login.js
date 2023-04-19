@@ -47,9 +47,8 @@ export default function Login({navigation}) {
       <Image source={img} style={styles.logImage} resizeMode="cover" />
       <View style={styles.whiteSheet}>
         <SafeAreaView style={styles.form}>
-          <View style={{bottom: 50}}>
             <Text style={styles.title}>Login</Text>
-          </View>
+          
           <TextInput
             style={styles.input}
             placeholder="Email"
@@ -142,7 +141,8 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     marginHorizontal: 30,
-    marginBottom: 90,
+    marginBottom: 50,
+    paddingBottom:50,
   },
   button: {
     backgroundColor: '#09a5ed',
